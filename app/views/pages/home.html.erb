@@ -1,0 +1,8 @@
+<div class="container mt-5">
+  <h1>Pages#home</h1>
+  <p>Find me in app/views/pages/home.html.erb</p>
+  <div data-controller="popover" data-popover-url-value="<%= user_card_path(1) %>">
+    This is where I'd like to put my popover
+    <span data-action="mouseenter->popover#show mouseleave->popover#hide"><%= link_to "profile card", test_case_path %></span>
+  </div>
+</div>
